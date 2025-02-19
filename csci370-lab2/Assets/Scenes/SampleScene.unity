@@ -7106,6 +7106,7 @@ GameObject:
   - component: {fileID: 833974955}
   - component: {fileID: 833974957}
   - component: {fileID: 833974956}
+  - component: {fileID: 833974959}
   - component: {fileID: 833974958}
   m_Layer: 6
   m_Name: Store Employee Male
@@ -7246,6 +7247,18 @@ MonoBehaviour:
   repeatStartPosition: 1
   npcName: Carl at Cafe Supply
   dialogueAsset: {fileID: 11400000, guid: 25ab6cd45a12345a9a591c6e51208435, type: 2}
+--- !u!114 &833974959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833974954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98e0980fc6284bc7bac117c597a7ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &874788414
 GameObject:
   m_ObjectHideFlags: 0

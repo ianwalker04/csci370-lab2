@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class NPC : MonoBehaviour
+public class NPC2 : MonoBehaviour
 {
     [SerializeField] bool firstInteraction;
     [SerializeField] int repeatStartPosition;
 
-    [SerializeField] bool storeInteraction = false;
+    bool storeInteraction = false;
 
     public string npcName;
     public DialogueAsset dialogueAsset;
@@ -34,4 +34,3 @@ public class NPC : MonoBehaviour
         }
     }
 }
-
