@@ -2059,15 +2059,15 @@ RectTransform:
   m_GameObject: {fileID: 539658711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.8}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 642879547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 320, y: -10}
-  m_SizeDelta: {x: 1000, y: 50}
+  m_AnchoredPosition: {x: 1560, y: -10}
+  m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &539658713
 MonoBehaviour:
@@ -2091,8 +2091,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7462067d1a325e141bd2b4bea5e5bab3, type: 2}
+  m_sharedMaterial: {fileID: 2509882183505385352, guid: 7462067d1a325e141bd2b4bea5e5bab3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2317,8 +2317,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstInteraction: 1
   repeatStartPosition: 0
-  npcName: Jane  at the Park
-  dialogueAsset: {fileID: 11400000, guid: 0ac8d7f56a3cc4aa39a3cbaeef61fb08, type: 2}
+  npcName: Jane at the Park
+  dialogueAsset: {fileID: 11400000, guid: a1d52870345dd4cd0b64da089376e0c0, type: 2}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,7 +2420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &642879547
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2440,7 +2440,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 960, y: 150}
+  m_SizeDelta: {x: 3000, y: 300}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &642879548
 MonoBehaviour:
@@ -7272,14 +7272,14 @@ RectTransform:
   m_GameObject: {fileID: 874788414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 642879547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: 30}
+  m_AnchoredPosition: {x: 1600, y: 70}
   m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874788416
@@ -7304,15 +7304,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7462067d1a325e141bd2b4bea5e5bab3, type: 2}
+  m_sharedMaterial: {fileID: 2509882183505385352, guid: 7462067d1a325e141bd2b4bea5e5bab3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294963621
+  m_fontColor: {r: 0.6462264, g: 0.9450513, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7798,6 +7798,7 @@ GameObject:
   - component: {fileID: 1250814962}
   - component: {fileID: 1250814961}
   - component: {fileID: 1250814963}
+  - component: {fileID: 1250814964}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -7968,6 +7969,19 @@ PolygonCollider2D:
       - {x: 0.21325088, y: -0.026448786}
       - {x: 0.20810056, y: -0.05438161}
   m_UseDelaunayMesh: 0
+--- !u!114 &1250814964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250814958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e7b27992f0e45fc8f230a5f818289f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talkDistance: 2
 --- !u!1 &1355519388
 GameObject:
   m_ObjectHideFlags: 0
@@ -7978,6 +7992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1355519389}
   - component: {fileID: 1355519391}
+  - component: {fileID: 1355519393}
   - component: {fileID: 1355519390}
   - component: {fileID: 1355519392}
   m_Layer: 6
@@ -8119,6 +8134,66 @@ MonoBehaviour:
   repeatStartPosition: 1
   npcName: Susan the Barista
   dialogueAsset: {fileID: 11400000, guid: 59cd1047130314ac2bc86e4b99390db3, type: 2}
+--- !u!114 &1355519393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355519388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e7b27992f0e45fc8f230a5f818289f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talkDistance: 2
+--- !u!1 &1379643763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379643765}
+  - component: {fileID: 1379643764}
+  m_Layer: 5
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1379643764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379643763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8dc5c29cdd649139b69d66fab15ad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 539658713}
+  nameText: {fileID: 874788416}
+  dialoguePanel: {fileID: 642879546}
+--- !u!4 &1379643765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379643763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 222.39925, y: 54.150993, z: -2.3119202}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1425496231
 GameObject:
   m_ObjectHideFlags: 0
@@ -46917,7 +46992,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2031972186}
   - component: {fileID: 2031972185}
-  - component: {fileID: 2031972187}
   - component: {fileID: 2031972184}
   m_Layer: 0
   m_Name: EventSystem
@@ -46987,21 +47061,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2031972187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2031972183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a8dc5c29cdd649139b69d66fab15ad3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 539658713}
-  nameText: {fileID: 874788416}
-  dialoguePanel: {fileID: 642879546}
 --- !u!1 &2130292220
 GameObject:
   m_ObjectHideFlags: 0
@@ -48160,3 +48219,4 @@ SceneRoots:
   - {fileID: 1425496232}
   - {fileID: 1124056547}
   - {fileID: 2031972186}
+  - {fileID: 1379643765}

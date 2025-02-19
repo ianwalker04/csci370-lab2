@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    [SerializeField] bool firstInteraction = true;
+    [SerializeField] bool firstInteraction;
     [SerializeField] int repeatStartPosition;
 
     public string npcName;
@@ -10,12 +10,15 @@ public class NPC : MonoBehaviour
 
     [HideInInspector]
     public int StartPosition {
-        get{
-            if (firstInteraction){
+        get
+        {
+            if (firstInteraction)
+            {
                 firstInteraction = false;
                 return 0;
             }
-            else{
+            else
+            {
                 return repeatStartPosition;
             }
         }
