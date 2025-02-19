@@ -5,7 +5,8 @@ public class PlayerConvo : MonoBehaviour
     [SerializeField] float talkDistance = 2;
     bool inConversation;
 
-    void Update() {
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.E))
         {
             Interact();
@@ -15,11 +16,13 @@ public class PlayerConvo : MonoBehaviour
     void Interact()
     {
         Debug.Log("Interact");
-        if (inConversation){
+        if (inConversation)
+        {
             Debug.Log("Skipping Line");
             GameManager.Instance.SkipLine();
         }
-        else{
+        else
+        {
             Debug.Log("Looking for NPC");
             RaycastHit2D hit = Physics2D.CircleCast(transform.position, talkDistance, Vector2.up, 0, LayerMask.GetMask("NPC"));
             if (hit)
@@ -34,20 +37,24 @@ public class PlayerConvo : MonoBehaviour
         }
     }
 
-    void JoinConversation() {
+    void JoinConversation()
+    {
         inConversation = true;
     }
 
-    void LeaveConversation() {
+    void LeaveConversation()
+    {
         inConversation = false;
     }
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
         GameManager.OnDialogueStarted += JoinConversation;
         GameManager.OnDialogueEnded += LeaveConversation;
     }
 
-    private void OnDisable() {
+    private void OnDisable()
+    {
         GameManager.OnDialogueStarted -= JoinConversation;
         GameManager.OnDialogueEnded -= LeaveConversation;
     }
