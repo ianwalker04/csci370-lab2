@@ -5,6 +5,8 @@ public class PlayerConvo : MonoBehaviour
     [SerializeField] float talkDistance = 2;
     bool inConversation;
 
+    [SerializeField] public bool storeInteraction;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
@@ -31,6 +33,9 @@ public class PlayerConvo : MonoBehaviour
 
                 if (hit.collider.gameObject.TryGetComponent(out NPC npc))
                 {
+                    if (npc.Carl){
+                        storeInteraction = true;
+                    }
                     GameManager.Instance.StartDialogue(npc.dialogueAsset.dialogue, npc.StartPosition, npc.npcName);
                 }
             }

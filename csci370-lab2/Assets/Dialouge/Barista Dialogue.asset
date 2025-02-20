@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Barista Dialogue
   m_EditorClassIdentifier: 
   dialogue:
-  - Could you run to the store and get us some more coffee groud?
-  - Have you run to the store yet?
   - Thanks for going to the store!
+  - If you have not, could you run to the store and get us some more coffee groud?

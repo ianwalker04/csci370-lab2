@@ -1780,6 +1780,8 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 1
   npcName: Megan at Cafe Supply
+  Carl: 0
+  Susan: 0
   dialogueAsset: {fileID: 11400000, guid: 0ac8d7f56a3cc4aa39a3cbaeef61fb08, type: 2}
 --- !u!1 &519420028
 GameObject:
@@ -2319,6 +2321,8 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 0
   npcName: Jane at the Park
+  Carl: 0
+  Susan: 0
   dialogueAsset: {fileID: 11400000, guid: a1d52870345dd4cd0b64da089376e0c0, type: 2}
 --- !u!1 &619394800
 GameObject:
@@ -7106,7 +7110,6 @@ GameObject:
   - component: {fileID: 833974955}
   - component: {fileID: 833974957}
   - component: {fileID: 833974956}
-  - component: {fileID: 833974959}
   - component: {fileID: 833974958}
   m_Layer: 6
   m_Name: Store Employee Male
@@ -7246,19 +7249,9 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 1
   npcName: Carl at Cafe Supply
+  Carl: 1
+  Susan: 0
   dialogueAsset: {fileID: 11400000, guid: 25ab6cd45a12345a9a591c6e51208435, type: 2}
---- !u!114 &833974959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833974954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f98e0980fc6284bc7bac117c597a7ceb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &874788414
 GameObject:
   m_ObjectHideFlags: 0
@@ -7545,6 +7538,8 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 1
   npcName: Steven the Customer
+  Carl: 0
+  Susan: 0
   dialogueAsset: {fileID: 11400000, guid: aee1ce567b43443bfa003d4a5ffea978, type: 2}
 --- !u!1 &1124056543
 GameObject:
@@ -7798,6 +7793,8 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 1
   npcName: Tim the Customer
+  Carl: 0
+  Susan: 0
   dialogueAsset: {fileID: 11400000, guid: d61a246cd68f9470daaab1601be9ebc5, type: 2}
 --- !u!1 &1250814958
 GameObject:
@@ -7996,6 +7993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talkDistance: 2
+  storeInteraction: 0
 --- !u!1 &1355519388
 GameObject:
   m_ObjectHideFlags: 0
@@ -8146,6 +8144,8 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 1
   npcName: Susan the Barista
+  Carl: 0
+  Susan: 1
   dialogueAsset: {fileID: 11400000, guid: 59cd1047130314ac2bc86e4b99390db3, type: 2}
 --- !u!1 &1379643763
 GameObject:
@@ -8383,6 +8383,8 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 1
   npcName: Susan the Customer
+  Carl: 0
+  Susan: 0
   dialogueAsset: {fileID: 11400000, guid: 45cfe67594e1a4fa3892c405ea7b9588, type: 2}
 --- !u!1 &1609119323
 GameObject:
@@ -8534,6 +8536,8 @@ MonoBehaviour:
   firstInteraction: 1
   repeatStartPosition: 1
   npcName: Jimmy the Park Jester
+  Carl: 0
+  Susan: 0
   dialogueAsset: {fileID: 11400000, guid: 561540219cfdb449395238c4d15db3b7, type: 2}
 --- !u!1 &1784608667
 GameObject:

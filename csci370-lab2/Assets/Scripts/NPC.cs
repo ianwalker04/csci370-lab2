@@ -5,18 +5,26 @@ public class NPC : MonoBehaviour
     [SerializeField] bool firstInteraction;
     [SerializeField] int repeatStartPosition;
 
-    [SerializeField] bool storeInteraction = false;
 
-    public string npcName;
+    [SerializeField] public string npcName;
+
+    [SerializeField] public bool Carl;
+    [SerializeField] public bool Susan;
     public DialogueAsset dialogueAsset;
 
     [HideInInspector]
     public int StartPosition {
         get
-        {
-            if (npcName == "Carl at Cafe Supply"){
-                storeInteraction = true;
+        {  RaycastHit2D hit = Physics2D.CircleCast(transform.position, 2, Vector2.up, 0, LayerMask.GetMask("Player"));
+            if (hit){
+                if(hit.collider.gameObject.TryGetComponent(out PlayerConvo player));
+                if (Susan && player.storeInteraction){
+                    return 0;
+                }
             }
+            if (Susan) {
+                return 1;
+                }
             if (firstInteraction)
             {
                 firstInteraction = false;
@@ -24,12 +32,7 @@ public class NPC : MonoBehaviour
             }
             else
             {
-                if ((npcName == "Susan the Barista") && storeInteraction){
-                    return 2;
-                }
-                else{
                 return repeatStartPosition;
-                }
             }
         }
     }
