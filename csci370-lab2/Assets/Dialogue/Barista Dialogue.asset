@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1591425485ed44dd4aaa8c50f57d717e, type: 3}
-  m_Name: CRB Dialogue Asset
+  m_Name: Barista Dialogue
   m_EditorClassIdentifier: 
   dialogue:
-  - Could I have a grean tea with a spritz of lavender?
-  - Just delightful.
+  - Thanks for going to the store!
+  - If you have not, could you run to the store and get us some more coffee ground?

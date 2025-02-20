@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1591425485ed44dd4aaa8c50f57d717e, type: 3}
-  m_Name: COO Dialogue Asset
+  m_Name: CRB Dialogue Asset
   m_EditorClassIdentifier: 
   dialogue:
-  - Could I have pepperment hot chocolate?
-  - This really hits the spot
+  - Could I have a green tea with a spritz of lavender?
+  - Just delightful.
